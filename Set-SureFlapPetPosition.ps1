@@ -4,7 +4,7 @@ param (
 )
 # usage: .\Set-SureFlapPetPosition.ps1 pet_id [where]
 
-. ./Get-SureFlapHousehold.ps1
+. ./Get-SureFlapToken.ps1
 
 $uri = $endpoint + "/api/pet/$petID/position"
 
